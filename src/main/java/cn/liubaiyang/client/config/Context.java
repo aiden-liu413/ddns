@@ -51,9 +51,9 @@ public class Context {
 
     public static void validConfig(DdnsConfig ddnsConfig) {
         Assert.notBlank(ddnsConfig.getAccessKey(), "ak can not be null");
-        Assert.notBlank(ddnsConfig.getAccessKey(), "sk can not be null");
-        Assert.notBlank(ddnsConfig.getAccessKey(), "sub domain can not be null");
-        Assert.notBlank(ddnsConfig.getAccessKey(), "domain can not be null");
-        Assert.notBlank(ddnsConfig.getAccessKey(), "ipInterface can not be null");
+        Assert.notBlank(ddnsConfig.getSecretKey(), "sk can not be null");
+        Assert.notBlank(ddnsConfig.getSubDomain(), "sub domain can not be null");
+        Assert.notBlank(ddnsConfig.getDomain(), "domain can not be null");
+        Assert.notBlank(ddnsConfig.getIpInterface(), "ipInterface can not be null");
     }
 }
