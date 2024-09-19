@@ -1,0 +1,15 @@
+[{
+  "domain":"test.cn",
+  "accessKey":"",
+  "secretKey":"",
+  "subDomain":"www",
+  "ipInterface":"https://api.ip.sb/ip",
+  "provider":"ALI_DNS"
+},{
+  "domain":"test.cn",
+  "accessKey":"",
+  "secretKey":"",
+  "subDomain":"home",
+  "ipInterface":"https://api.ip.sb/ip",
+  "provider":"ALI_DNS"
+}]
